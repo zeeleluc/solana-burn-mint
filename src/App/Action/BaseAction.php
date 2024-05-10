@@ -21,7 +21,7 @@ abstract class BaseAction extends BaseObject
             }
         } else {
 
-            $htmlTitle = 'MultiChain NFT RichLists';
+            $htmlTitle = 'SolanaMintBurn';
 
             $this->setVariable(new Variable('htmlTitle', $htmlTitle));
             $this->template = new Template();
